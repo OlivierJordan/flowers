@@ -9,7 +9,7 @@
     <button class="close-button" @click="closeDialog">&times;</button>
 
     <template v-if="dialogStep === 'ask'">
-      <div style="color: white">Anja, will you be my valentine?</div>
+      <div style="color: white">Zoé Ladines Sotelo, will you be my valentine?</div>
       <div class="dialog-buttons">
         <button class="fall-button" @click="answerYes">Yes</button>
         <button class="fall-button" @click="answerNo">No</button>
